@@ -2,7 +2,7 @@
 
 
 # How To Host 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Achu2234/PyVidioPlayerBeta/tree/mainr&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Achu2234/PyVidioPlayerBetar&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_NAME)
 
 
 # Credit 🔥 
