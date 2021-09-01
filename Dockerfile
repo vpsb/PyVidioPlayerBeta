@@ -1,13 +1,9 @@
-FROM python:3.9
-
-RUN apt update && apt upgrade -y
-RUN apt install python3-pip -y
-RUN apt install ffmpeg -y
-
+FROM python:latest
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install python3-pip -y
+RUN apt-get install ffmpeg -y
 COPY . /py
 WORKDIR /py
-
-RUN pip3 install --upgrade pip
-RUN pip3 install -U -r requirements.txt
-
-CMD python3 -m bot
+RUN python3.9 -m pip install --upgrade pip
+RUN python3.9 -m pip install -U -r requirements.txt
+CMD python3.9 -m bot
